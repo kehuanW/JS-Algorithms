@@ -28,3 +28,9 @@ Time Complexity: Count the number of times a statement execute based on the inpu
 
 
 
+Recursion:
+
+- Need a base case
+
+- not always translate to a faster solution
+- Not straight forward to understand

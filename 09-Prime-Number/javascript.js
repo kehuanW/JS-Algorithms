@@ -19,7 +19,7 @@ function isPrime(n) {
     }
 
     let i = 2;
-    while (i !== n && i < n) {
+    while (i !== n && i < n) { // i !== n && i <= Math.sqrt(n)
         if (n % i === 0) {
             return !flag;
         }
@@ -34,5 +34,5 @@ let c = isPrime(4) //false
 let d = isPrime(8) //false
 
 /*
-O(n)
+O(n) --> O(sqrt(n))
 */
