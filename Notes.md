@@ -34,3 +34,17 @@ Recursion:
 
 - not always translate to a faster solution
 - Not straight forward to understand
+
+## Sort
+
+### Bubble Sort
+
+- Compare adjacent elements in the arry and swap the position if they are not in the intended order.
+- Repeat the instruction as you step through each element in the array.
+- Once you step throught the whole array with no swaps, the array is sorted.
+
+### Insertion Sort
+
+![InsertionSortIdea](E:\JS-Algorithms\img\InsertionSortIdea.png)
+
+![InsertionSortExample](E:\JS-Algorithms\img\InsertionSortExample.png)
