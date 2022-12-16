@@ -48,3 +48,10 @@ Recursion:
 ![InsertionSortIdea](E:\JS-Algorithms\img\InsertionSortIdea.png)
 
 ![InsertionSortExample](E:\JS-Algorithms\img\InsertionSortExample.png)
+
+### Quick Sort
+
+![QuickSortIdea](E:\JS-Algorithms\img\QuickSortIdea.png)
+
+![QuickSortExample](E:\JS-Algorithms\img\QuickSortExample.png)
+
