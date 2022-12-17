@@ -63,3 +63,10 @@ Recursion:
 
 ![MergeSortExample-2](E:\JS-Algorithms\img\MergeSortExample-2.png)
 
+![MergeSortExample-3](E:\JS-Algorithms\img\MergeSortExample-3.png)
+
+### Tower of Hanoi
+
+![TowerOfHanoiIdea](E:\JS-Algorithms\img\TowerOfHanoiIdea.png)
+
+![TowerOdHanoiExample](E:\JS-Algorithms\img\TowerOdHanoiExample.png)
