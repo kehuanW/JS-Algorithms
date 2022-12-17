@@ -55,3 +55,11 @@ Recursion:
 
 ![QuickSortExample](E:\JS-Algorithms\img\QuickSortExample.png)
 
+### Merge Sort
+
+![MergeSortIdea](E:\JS-Algorithms\img\MergeSortIdea.png)
+
+![MergeSortExample-1](E:\JS-Algorithms\img\MergeSortExample-1.png)
+
+![MergeSortExample-2](E:\JS-Algorithms\img\MergeSortExample-2.png)
+
