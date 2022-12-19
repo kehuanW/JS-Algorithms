@@ -70,3 +70,19 @@ Recursion:
 ![TowerOfHanoiIdea](E:\JS-Algorithms\img\TowerOfHanoiIdea.png)
 
 ![TowerOdHanoiExample](E:\JS-Algorithms\img\TowerOdHanoiExample.png)
+
+## Algorithm Techniques
+
+![AlgorithmTechniques](E:\JS-Algorithms\img\AlgorithmTechniques.png)
+
+### JS Data Structure
+
+![JSDataStructure](E:\JS-Algorithms\img\JSDataStructure.png)
+
+### Array
+
+![ArrayTimeComplexity](E:\JS-Algorithms\img\ArrayTimeComplexity.png)
+
+### Object
+
+![Object](E:\JS-Algorithms\img\Object.png)
