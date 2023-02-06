@@ -37,6 +37,8 @@ Recursion:
 
 ## Sort
 
+https://juejin.cn/post/6844903444365443080#comment
+
 ### Bubble Sort
 
 - Compare adjacent elements in the array and swap the position if they are not in the intended order. 
@@ -226,3 +228,65 @@ console.log(insertionSort(arr));
 ![CicleQ-2](E:\JS-Algorithms\img\CicleQ-2.png)
 
 <img src="E:\JS-Algorithms\img\CircleQUsage.png" alt="CircleQUsage" style="zoom:50%;" />
+
+## Search
+
+### Linear Search
+
+```javascript
+function linearSearch(arr, target){
+  for (let i = 0; i < arr.length; i++) {
+      if (arr[i] === target) {
+          return i
+      }
+  }
+  return -1;
+}
+```
+
+Big O: O(n)
+
+### Binary Search
+
+Attention: binary search works on sorted array.
+
+```javascript
+function binarySearch(arr, target){
+  let left = 0;
+  let right = arr.length - 1;
+  let mid = Math.floor((left + right)/2);
+  while (left <= right) {
+      if(target > arr[mid]) {
+          left = mid + 1; //Attention
+      } else if (target < arr[mid]) {
+          right = mid - 1; //Attention
+      } else {
+          return mid;
+      }
+      mid = Math.floor((left + right)/2);
+  }
+  return -1;
+}
+
+//Without +1 or -1, trapped in loop
+```
+
+Big O: O(logn)
+
+### Naive String Searching
+
+```javascript
+function naiveSearch(long, short){
+    var count = 0;
+    for(var i = 0; i < long.length; i++){
+        for(var j = 0; j < short.length; j++){
+           if(short[j] !== long[i+j]) break;
+           if(j === short.length - 1) count++;
+        }
+    }
+    return count;
+}
+
+naiveSearch("lorie loled", "ledd")
+```
+
